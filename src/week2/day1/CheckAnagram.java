@@ -9,7 +9,7 @@ public class CheckAnagram {
 
     public static boolean isAnagram(String text1, String text2) {
         boolean isAnagram = true;
-        if (text1.length() == text2.length()) {
+         if (text1.length() == text2.length()) {
             int i = 0;
             while (isAnagram && i < text1.length()) {
                 if (!isExists(text2, text1.charAt(i))) {
