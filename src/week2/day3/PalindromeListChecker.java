@@ -1,4 +1,4 @@
-package week2;
+package week2.day3;
 
 public class PalindromeListChecker {
     public static void main(String[] args) {
